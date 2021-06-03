@@ -27,12 +27,12 @@ const SwiperComponentMac = () => {
         >
             <View style={styles.slide}>
                 <Image
-                    source={require('../images/Mac.jpg')}
+                    source={require('../images/Mac1.jpg')}
                     style={{
 
                         marginRight: 10,
                         marginBottom: 130,
-                        height: 300,
+                        height: 250,
                         width: 350,
                         marginTop: 60,
                         borderRadius: 10,
@@ -42,11 +42,11 @@ const SwiperComponentMac = () => {
             </View>
             <View style={styles.slide}>
                 <Image
-                    source={require('../images/Mac.jpg')}
+                    source={require('../images/Mac1.jpg')}
                     style={{
                         marginRight: 10,
                         marginBottom: 130,
-                        height: 300,
+                        height: 250,
                         width: 350,
                         marginTop: 60,
                         borderRadius: 10,
@@ -56,11 +56,11 @@ const SwiperComponentMac = () => {
             </View>
             <View style={styles.slide}>
                 <Image
-                    source={require('../images/Mac.jpg')}
+                    source={require('../images/Mac1.jpg')}
                     style={{
                         marginRight: 10,
                         marginBottom: 130,
-                        height: 300,
+                        height: 250,
                         width: 350,
                         marginTop: 60,
                         borderRadius: 10,

@@ -37,12 +37,12 @@ const Home = ({ navigation }) => {
                             fontWeight: "bold"
                         }}> Fusion Tech </Text>
                     </View>
-                    {/* <View style={{width:"50%",alignItems:"flex-end"}}>
+                    <View style={{ width: "50%", alignItems: "flex-end" }}>
                         <Image
-                            source={require('../images/g.png')}
-                            style={{height:60,width:60}}
+                            source={require('../images/chrome.png')}
+                            style={{ height: 60, width: 60 }}
                         />
-                   </View> */}
+                    </View>
                 </View>
             </View>
             <LinearGradient
@@ -140,58 +140,62 @@ const Home = ({ navigation }) => {
                 <TouchableOpacity
                     onPress={() => navigation.navigate("Lg")}
                     style={{
-                        height: 250,
+                        height: 383,
                         elevation: 2,
                         backgroundColor: "#FFF",
                         marginLeft: 20,
-                        marginTop: 20,
+                        marginTop: 50,
                         borderRadius: 15,
-                        marginBottom: 10,
-                        width: 160
+                        width: 356
                     }}
                 >
                     <Image
-                        source={require('../images/resize-1622717003431629243Lg.jpg')}
+                        style={{
+                            margin: 10,
+                            height: 300,
+                            width: 334
+                        }}
+                        source={require('../images/Lg.jpeg')}
                     />
                     <View style={{
-                        flexDirection: "row",
+                        flexDirection: 'row',
                         paddingTop: 10,
                         paddingHorizontal: 10
                     }}>
                         <Text style={{
-                            fontWeight: "bold"
-                        }}>Lg Laptop</Text>
+                            fontWeight: "bold",
+                            color: "#00a46c",
+                            fontSize: 30,
+                            paddingLeft: 10
+                        }}>LG LAPTOP</Text>
                         <Text style={{
                             fontWeight: "bold",
                             color: "#00a46c",
-                            paddingLeft: 35
-                        }}>$40</Text>
+                            fontSize: 30,
+                            paddingLeft: 80
+                        }}>$1100</Text>
                     </View>
-                    <Text style={{
-                        paddingHorizontal: 10,
-                        fontWeight: "bold",
-                        color: "#b1e5d3",
-                        paddingTop: 3
-                    }}>
-                        Bangladesh
-                        </Text>
                 </TouchableOpacity>
 
                 <TouchableOpacity
                     onPress={() => navigation.navigate("Mac")}
                     style={{
-                        height: 250,
+                        height: 383,
                         elevation: 2,
                         backgroundColor: "#FFF",
                         marginLeft: 20,
-                        marginTop: 20,
+                        marginTop: 50,
                         borderRadius: 15,
-                        marginBottom: 10,
-                        width: 160
+                        width: 356
                     }}
                 >
                     <Image
-                        source={require('../images/resize-1622716756557892271Mac.jpg')}
+                        style={{
+                            margin: 10,
+                            height: 300,
+                            width: 334
+                        }}
+                        source={require('../images/Mac1.jpg')}
                     />
                     <View style={{
                         flexDirection: "row",
@@ -199,39 +203,42 @@ const Home = ({ navigation }) => {
                         paddingHorizontal: 10
                     }}>
                         <Text style={{
-                            fontWeight: "bold"
-                        }}>Mac Book</Text>
+                            fontWeight: "bold",
+                            color: "#00a46c",
+                            fontSize: 30,
+                            paddingLeft: 10
+                        }}>MAC BOOK</Text>
                         <Text style={{
                             fontWeight: "bold",
                             color: "#00a46c",
-                            paddingLeft: 45
-                        }}>$40</Text>
+                            fontSize: 30,
+                            paddingLeft: 80
+                        }}>$1200</Text>
                     </View>
-                    <Text style={{
-                        paddingHorizontal: 10,
-                        fontWeight: "bold",
-                        color: "#b1e5d3",
-                        paddingTop: 3
-                    }}>
-                        Bangladesh
-                        </Text>
                 </TouchableOpacity>
 
                 <TouchableOpacity
                     onPress={() => navigation.navigate("Lenevo")}
                     style={{
-                        height: 250,
+                        height: 383,
                         elevation: 2,
                         backgroundColor: "#FFF",
                         marginLeft: 20,
-                        marginTop: 20,
+                        marginRight: 20,
+                        marginTop: 50,
                         borderRadius: 15,
-                        marginBottom: 10,
-                        width: 160
+                        width: 356
                     }}
                 >
                     <Image
-                        source={require('../images/resize-16227168251664236379Lenovo.jpg')}
+                        style={{
+                            margin: 10,
+                            height: 300,
+                            width: 334
+
+
+                        }}
+                        source={require('../images/lenevo.jpg')}
                     />
                     <View style={{
                         flexDirection: "row",
@@ -239,22 +246,18 @@ const Home = ({ navigation }) => {
                         paddingHorizontal: 10
                     }}>
                         <Text style={{
-                            fontWeight: "bold"
+                            fontWeight: "bold",
+                            color: "#00a46c",
+                            fontSize: 30,
+                            paddingLeft: 10
                         }}>Lenovo</Text>
                         <Text style={{
                             fontWeight: "bold",
                             color: "#00a46c",
-                            paddingLeft: 35
-                        }}>$40</Text>
+                            fontSize: 30,
+                            paddingLeft: 135
+                        }}>$1000</Text>
                     </View>
-                    <Text style={{
-                        paddingHorizontal: 10,
-                        fontWeight: "bold",
-                        color: "#b1e5d3",
-                        paddingTop: 3
-                    }}>
-                        Bangladesh
-                        </Text>
                 </TouchableOpacity>
 
             </ScrollView>

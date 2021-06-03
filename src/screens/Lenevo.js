@@ -1,5 +1,5 @@
 import React from 'react'
-import { View, Text, Image } from 'react-native'
+import { View, Text, Image, Alert } from 'react-native'
 import { TouchableOpacity } from 'react-native-gesture-handler'
 import SwiperComponentLenevo from '../components/SwiperComponentLenevo'
 import SwiperComponentLg from '../components/SwiperComponentLg'
@@ -76,7 +76,13 @@ const Lenevo = ({ navigation }) => {
                     justifyContent: "center"
                 }}>
                     <TouchableOpacity
-                        onPress={() => alert('Your Product Has Been Bought')}>
+                        onPress={() => {
+                            Alert.alert('Thank You', 'Your Product Has Been Punched Successfully.', [
+                                {
+                                    text: 'Done'
+                                }
+                            ])
+                        }}>
                         <Text style={{
                             color: "#FFF",
                             fontSize: 17
