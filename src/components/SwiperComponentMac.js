@@ -1,5 +1,5 @@
 import React from 'react'
-import { Image, StyleSheet, Text, View } from 'react-native'
+import { Image, StyleSheet, View } from 'react-native'
 import Swiper from 'react-native-swiper'
 
 const SwiperComponentMac = () => {
@@ -29,11 +29,9 @@ const SwiperComponentMac = () => {
                 <Image
                     source={require('../images/Mac1.jpg')}
                     style={{
-
-                        marginRight: 10,
                         marginBottom: 130,
                         height: 250,
-                        width: 350,
+                        width: 360,
                         marginTop: 60,
                         borderRadius: 10,
                         resizeMode: "stretch"
@@ -42,9 +40,8 @@ const SwiperComponentMac = () => {
             </View>
             <View style={styles.slide}>
                 <Image
-                    source={require('../images/Mac1.jpg')}
+                    source={require('../images/Mac.png')}
                     style={{
-                        marginRight: 10,
                         marginBottom: 130,
                         height: 250,
                         width: 350,
@@ -56,7 +53,7 @@ const SwiperComponentMac = () => {
             </View>
             <View style={styles.slide}>
                 <Image
-                    source={require('../images/Mac1.jpg')}
+                    source={require('../images/Mac2.jpg')}
                     style={{
                         marginRight: 10,
                         marginBottom: 130,
@@ -75,9 +72,8 @@ const styles = StyleSheet.create({
     wrapper: {},
     slide: {
         flex: 1,
-        justifyContent: "center",
         alignItems: "center",
-        backgroundColor: "#FFF"
+        backgroundColor: "#ADD8E6"
     }
 })
 export default SwiperComponentMac;

@@ -27,12 +27,24 @@ const SwiperComponentLenevo = () => {
         >
             <View style={styles.slide}>
                 <Image
-                    source={require('../images/Lenovo.jpg')}
+                    source={require('../images/lenevo.jpg')}
+                    style={{
+                        marginBottom: 130,
+                        height: 300,
+                        width: 360,
+                        marginTop: 60,
+                        borderRadius: 10,
+                        resizeMode: "stretch"
+                    }}
+                />
+            </View>
+            <View style={styles.slide}>
+                <Image
+                    source={require('../images/lenovo1.jpg')}
                     style={{
 
-                        marginRight: 10,
                         marginBottom: 130,
-                        height: 300,
+                        height: 280,
                         width: 350,
                         marginTop: 60,
                         borderRadius: 10,
@@ -42,23 +54,9 @@ const SwiperComponentLenevo = () => {
             </View>
             <View style={styles.slide}>
                 <Image
-                    source={require('../images/Lenovo.jpg')}
+                    source={require('../images/lenovo2.jpg')}
                     style={{
-                        marginRight: 10,
-                        marginBottom: 130,
-                        height: 300,
-                        width: 350,
-                        marginTop: 60,
-                        borderRadius: 10,
-                        resizeMode: "stretch"
-                    }}
-                />
-            </View>
-            <View style={styles.slide}>
-                <Image
-                    source={require('../images/Lenovo.jpg')}
-                    style={{
-                        marginRight: 10,
+
                         marginBottom: 130,
                         height: 300,
                         width: 350,
@@ -75,9 +73,8 @@ const styles = StyleSheet.create({
     wrapper: {},
     slide: {
         flex: 1,
-        justifyContent: "center",
         alignItems: "center",
-        backgroundColor: "#FFF"
+        backgroundColor: "#ADD8E6"
     }
 })
 export default SwiperComponentLenevo;

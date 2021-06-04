@@ -1,5 +1,5 @@
 import React from 'react'
-import { Image, StyleSheet, Text, View } from 'react-native'
+import { Image, StyleSheet, View } from 'react-native'
 import Swiper from 'react-native-swiper'
 
 const SwiperComponentLg = () => {
@@ -27,12 +27,24 @@ const SwiperComponentLg = () => {
         >
             <View style={styles.slide}>
                 <Image
-                    source={require('../images/Lg.jpg')}
+                    source={require('../images/Lg1.jpg')}
+                    style={{
+                        marginBottom: 130,
+                        height: 300,
+                        width: 360,
+                        marginTop: 60,
+                        borderRadius: 10,
+                        resizeMode: "stretch"
+                    }}
+                />
+            </View>
+            <View style={styles.slide}>
+                <Image
+                    source={require('../images/Lg2.jpg')}
                     style={{
 
-                        marginRight: 10,
                         marginBottom: 130,
-                        height: 450,
+                        height: 300,
                         width: 350,
                         marginTop: 60,
                         borderRadius: 10,
@@ -42,25 +54,11 @@ const SwiperComponentLg = () => {
             </View>
             <View style={styles.slide}>
                 <Image
-                    source={require('../images/Lg.jpg')}
+                    source={require('../images/Lg.jpeg')}
                     style={{
-                        marginRight: 10,
+
                         marginBottom: 130,
-                        height: 450,
-                        width: 350,
-                        marginTop: 60,
-                        borderRadius: 10,
-                        resizeMode: "stretch"
-                    }}
-                />
-            </View>
-            <View style={styles.slide}>
-                <Image
-                    source={require('../images/Lg.jpg')}
-                    style={{
-                        marginRight: 10,
-                        marginBottom: 130,
-                        height: 450,
+                        height: 300,
                         width: 350,
                         marginTop: 60,
                         borderRadius: 10,
@@ -75,9 +73,8 @@ const styles = StyleSheet.create({
     wrapper: {},
     slide: {
         flex: 1,
-        justifyContent: "center",
         alignItems: "center",
-        backgroundColor: "#FFF"
+        backgroundColor: "#ADD8E6"
     }
 })
 export default SwiperComponentLg;

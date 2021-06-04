@@ -1,14 +1,19 @@
 import React from 'react'
-import {View, Text} from 'react-native'
+import { View, Text } from 'react-native'
 
 const Favourite = () => {
-    return(
+    return (
         <View style={{
-            justifyContent:"center",
-            alignContent:"center",
-            flex:1
+            justifyContent: "center",
+            flex: 1
         }}>
-            <Text>Favourite</Text>
+            <Text
+                style={{
+                    fontSize: 50,
+                    padding: 20,
+                    textAlign: 'center'
+                }}
+            >This Is Favourite Page And It Is On Developing Mood</Text>
         </View>
     )
 }

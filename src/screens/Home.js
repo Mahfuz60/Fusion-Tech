@@ -1,5 +1,5 @@
 import React from 'react'
-import { View, Text, Image, ImageBackground } from 'react-native'
+import { View, Text, Image } from 'react-native'
 import { TextInput, ScrollView, TouchableOpacity } from 'react-native-gesture-handler'
 import { LinearGradient } from 'expo-linear-gradient'
 
@@ -33,7 +33,7 @@ const Home = ({ navigation }) => {
                     <View style={{ width: "50%" }}>
                         <Text style={{
                             fontSize: 28,
-                            color: "#000",
+                            color: "#191970",
                             fontWeight: "bold"
                         }}> Fusion Tech </Text>
                     </View>
@@ -155,7 +155,7 @@ const Home = ({ navigation }) => {
                             height: 300,
                             width: 334
                         }}
-                        source={require('../images/Lg.jpeg')}
+                        source={require('../images/Lg1.jpg')}
                     />
                     <View style={{
                         flexDirection: 'row',
@@ -250,12 +250,12 @@ const Home = ({ navigation }) => {
                             color: "#00a46c",
                             fontSize: 30,
                             paddingLeft: 10
-                        }}>Lenovo</Text>
+                        }}>LENOVO</Text>
                         <Text style={{
                             fontWeight: "bold",
                             color: "#00a46c",
                             fontSize: 30,
-                            paddingLeft: 135
+                            paddingLeft: 120
                         }}>$1000</Text>
                     </View>
                 </TouchableOpacity>
@@ -292,11 +292,6 @@ const Home = ({ navigation }) => {
                         paddingVertical: 0,
                         borderRadius: 0
                     }}>
-                        {/* <Text style={{
-                                fontWeight:"bold",
-                                fontSize:13,
-                                color:"#FFF"
-                            }}>More</Text> */}
                     </View>
                 </View>
             </View>
